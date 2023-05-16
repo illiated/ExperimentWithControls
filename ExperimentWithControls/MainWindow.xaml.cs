@@ -34,6 +34,5 @@ namespace ExperimentWithControls
         {
             e.Handled = !int.TryParse(e.Text, out int result);
         }
-        // Start on page 80
     }
 }
